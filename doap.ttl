@@ -1,0 +1,13 @@
+@prefix :     <http://usefulinc.com/ns/doap#>.
+@prefix dc:   <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#>.
+
+[]
+  a :Project;
+  :name "Alt-Class-Tiny-ButPerl56";
+  :shortdesc "alternative distribution of Class::Tiny, with Perl 5.6 support";
+  :developer [ a foaf:Person; foaf:name "David Golden"; foaf:mbox <mailto:dagolden@cpan.org> ];
+  :license <http://www.apache.org/licenses/LICENSE-2.0.txt>;
+  :programming-language "Perl".

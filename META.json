@@ -1,0 +1,70 @@
+{
+   "abstract" : "alternative distribution of Class::Tiny, with Perl 5.6 support",
+   "author" : [
+      "David Golden <dagolden@cpan.org>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Dist::Inkt::Profile::Simple version 0.022, CPAN::Meta::Converter version 2.140640",
+   "license" : [
+      "apache_2_0"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Alt-Class-Tiny-ButPerl56",
+   "no_index" : {
+      "directory" : [
+         "eg",
+         "examples",
+         "inc",
+         "t",
+         "xt"
+      ],
+      "package" : [
+         "Class::Tiny",
+         "Class::Tiny::Object"
+      ]
+   },
+   "optional_features" : {},
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.17"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Carp" : "0",
+            "perl" : "5.006",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "recommends" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Requirements" : "0",
+            "Test::FailWarnings" : "0"
+         },
+         "requires" : {
+            "Exporter" : "0",
+            "ExtUtils::MakeMaker" : "0",
+            "File::Spec::Functions" : "0",
+            "List::Util" : "0",
+            "Test::More" : "0.96",
+            "base" : "0",
+            "lib" : "0",
+            "subs" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Alt::Class::Tiny::ButPerl56" : {
+         "file" : "lib/Alt/Class/Tiny/ButPerl56.pm",
+         "version" : "0.001"
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.001"
+}
